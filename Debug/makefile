@@ -58,7 +58,7 @@ all: Project4
 Project4: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: NVCC Linker'
-	/Developer/NVIDIA/CUDA-9.1/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "Project4" $(OBJS) $(USER_OBJS) $(LIBS)
+	/usr/local/cuda-9.1/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_30,code=compute_30 -gencode arch=compute_30,code=sm_30 -link -o  "Project4" $(OBJS) $(USER_OBJS) $(LIBS)
 	@if [ $(shell uname -s) = "Darwin" ]; then dsymutil $@; fi
 	@echo 'Finished building target: $@'
 	@echo ' '
