@@ -4,12 +4,18 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 CU_SRCS += \
+../src/angle.cu \
+../src/deviceProps.cu \
 ../src/vectorAdd.cu 
 
 OBJS += \
+./src/angle.o \
+./src/deviceProps.o \
 ./src/vectorAdd.o 
 
 CU_DEPS += \
+./src/angle.d \
+./src/deviceProps.d \
 ./src/vectorAdd.d 
 
 

@@ -35,12 +35,13 @@ vectorAdd(const float *A, const float *B, float *C, int numElements)
     if (i < numElements)
     {
         C[i] = A[i] + B[i];
+        printf("Added: %f=%f+%f\n", C[i], A[i], B[i]);
     }
 }
 
 /**
  * Host main routine
- */
+
 int main(void)
 {
     // Error code to check return values for CUDA calls
@@ -192,4 +193,4 @@ int main(void)
     printf("Done\n");
     return 0;
 }
-
+*/
