@@ -31,12 +31,15 @@ __device__ double atomicAdd2(double* address, double val)
 __device__ void dot_product(const double *A, const double *B, int numElements, int blockSize, int width_thread, double *result)
 {
 	int start = width_thread*(blockIdx.x * blockSize + threadIdx.x);
+	double sum = 0.0;
+
 	for(int i = start; i < start+width_thread; i++)
 	{
 		if(i < numElements)
-			atomicAdd2(&result[blockIdx.x], A[i] * B[i]);
-	    //__syncthreads();
+			sum += A[i] * B[i];
 	}
+	atomicAdd2(&result[blockIdx.x], sum);
+
 
 }
 
@@ -44,13 +47,14 @@ __device__ void mag_squared(const double *A, int numElements, int blockSize, int
 {
 	int start =width_thread*(blockIdx.x * blockSize + threadIdx.x);
 
+	double sum = 0.0;
 	//sum all elements squared in the block
 	for(int i = start; i < start+width_thread; i++)
 	{
 		if(i < numElements)
-			atomicAdd2(&result[blockIdx.x], pow(A[i], 2));
-	    //__syncthreads();
+			sum+= pow(A[i],2);
 	}
+	atomicAdd2(&result[blockIdx.x], sum);
 
 }
 
