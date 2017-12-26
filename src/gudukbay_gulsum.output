@@ -1,0 +1,381 @@
+Number of Elements:1000000
+
+block size:32
+
+Time for the array generation: 56.988415 ms
+
+Info
+______________________________________________________
+Number of elements: 1000000
+Number of threads per block: 32
+Number of blocks will be created: 123
+
+Time
+______________________________________________________
+Time for the CPU function: 18.701759 ms
+Time for Host to Device transfer: 5.386240 ms
+Time for the kernel execution: 1.703680 ms
+Time for the Device to Host transfer: 0.058208 ms
+Total execution time for GPU: 7.148128 ms
+
+Results
+____________________________________________________
+CPU result: 41.770351
+GPU result: 41.770351
+
+
+
+block size:64
+
+Time for the array generation: 56.924385 ms
+
+Info
+______________________________________________________
+Number of elements: 1000000
+Number of threads per block: 64
+Number of blocks will be created: 62
+
+Time
+______________________________________________________
+Time for the CPU function: 19.452415 ms
+Time for Host to Device transfer: 5.210720 ms
+Time for the kernel execution: 1.713152 ms
+Time for the Device to Host transfer: 0.072192 ms
+Total execution time for GPU: 6.996064 ms
+
+Results
+____________________________________________________
+CPU result: 41.770351
+GPU result: 41.770351
+
+
+
+block size:128
+
+Time for the array generation: 56.449886 ms
+
+Info
+______________________________________________________
+Number of elements: 1000000
+Number of threads per block: 128
+Number of blocks will be created: 31
+
+Time
+______________________________________________________
+Time for the CPU function: 18.717089 ms
+Time for Host to Device transfer: 5.320064 ms
+Time for the kernel execution: 1.980512 ms
+Time for the Device to Host transfer: 0.055840 ms
+Total execution time for GPU: 7.356416 ms
+
+Results
+____________________________________________________
+CPU result: 41.770351
+GPU result: 41.770351
+
+
+
+block size:256
+
+Time for the array generation: 83.085342 ms
+
+Info
+______________________________________________________
+Number of elements: 1000000
+Number of threads per block: 256
+Number of blocks will be created: 16
+
+Time
+______________________________________________________
+Time for the CPU function: 32.450462 ms
+Time for Host to Device transfer: 5.905632 ms
+Time for the kernel execution: 3.139008 ms
+Time for the Device to Host transfer: 0.061952 ms
+Total execution time for GPU: 9.106592 ms
+
+Results
+____________________________________________________
+CPU result: 41.770351
+GPU result: 41.770351
+
+
+
+block size:512
+
+Time for the array generation: 57.408993 ms
+
+Info
+______________________________________________________
+Number of elements: 1000000
+Number of threads per block: 512
+Number of blocks will be created: 8
+
+Time
+______________________________________________________
+Time for the CPU function: 19.299744 ms
+Time for Host to Device transfer: 5.799104 ms
+Time for the kernel execution: 4.270784 ms
+Time for the Device to Host transfer: 0.068256 ms
+Total execution time for GPU: 10.138144 ms
+
+Results
+____________________________________________________
+CPU result: 41.770351
+GPU result: 41.770351
+
+
+
+Number of Elements:5000000
+
+block size:32
+
+Time for the array generation: 289.440979 ms
+
+Info
+______________________________________________________
+Number of elements: 5000000
+Number of threads per block: 32
+Number of blocks will be created: 611
+
+Time
+______________________________________________________
+Time for the CPU function: 95.813057 ms
+Time for Host to Device transfer: 27.314177 ms
+Time for the kernel execution: 6.964480 ms
+Time for the Device to Host transfer: 0.070784 ms
+Total execution time for GPU: 34.349442 ms
+
+Results
+____________________________________________________
+CPU result: 41.735287
+GPU result: 41.735287
+
+
+
+block size:64
+
+Time for the array generation: 396.308197 ms
+
+Info
+______________________________________________________
+Number of elements: 5000000
+Number of threads per block: 64
+Number of blocks will be created: 306
+
+Time
+______________________________________________________
+Time for the CPU function: 131.063873 ms
+Time for Host to Device transfer: 27.143456 ms
+Time for the kernel execution: 9.204480 ms
+Time for the Device to Host transfer: 0.064256 ms
+Total execution time for GPU: 36.412193 ms
+
+Results
+____________________________________________________
+CPU result: 41.735287
+GPU result: 41.735287
+
+
+
+block size:128
+
+Time for the array generation: 287.078491 ms
+
+Info
+______________________________________________________
+Number of elements: 5000000
+Number of threads per block: 128
+Number of blocks will be created: 153
+
+Time
+______________________________________________________
+Time for the CPU function: 95.144638 ms
+Time for Host to Device transfer: 27.314848 ms
+Time for the kernel execution: 9.311552 ms
+Time for the Device to Host transfer: 0.062880 ms
+Total execution time for GPU: 36.689278 ms
+
+Results
+____________________________________________________
+CPU result: 41.735287
+GPU result: 41.735287
+
+
+
+block size:256
+
+Time for the array generation: 283.677856 ms
+
+Info
+______________________________________________________
+Number of elements: 5000000
+Number of threads per block: 256
+Number of blocks will be created: 77
+
+Time
+______________________________________________________
+Time for the CPU function: 96.117699 ms
+Time for Host to Device transfer: 26.256416 ms
+Time for the kernel execution: 9.757248 ms
+Time for the Device to Host transfer: 0.063776 ms
+Total execution time for GPU: 36.077438 ms
+
+Results
+____________________________________________________
+CPU result: 41.735287
+GPU result: 41.735287
+
+
+
+block size:512
+
+Time for the array generation: 286.173035 ms
+
+Info
+______________________________________________________
+Number of elements: 5000000
+Number of threads per block: 512
+Number of blocks will be created: 39
+
+Time
+______________________________________________________
+Time for the CPU function: 95.576576 ms
+Time for Host to Device transfer: 26.924416 ms
+Time for the kernel execution: 12.085920 ms
+Time for the Device to Host transfer: 0.060768 ms
+Total execution time for GPU: 39.071106 ms
+
+Results
+____________________________________________________
+CPU result: 41.735287
+GPU result: 41.735287
+
+
+
+Number of Elements:10000000
+
+block size:32
+
+Time for the array generation: 571.029297 ms
+
+Info
+______________________________________________________
+Number of elements: 10000000
+Number of threads per block: 32
+Number of blocks will be created: 1221
+
+Time
+______________________________________________________
+Time for the CPU function: 191.047577 ms
+Time for Host to Device transfer: 52.653633 ms
+Time for the kernel execution: 13.564320 ms
+Time for the Device to Host transfer: 0.086368 ms
+Total execution time for GPU: 66.304321 ms
+
+Results
+____________________________________________________
+CPU result: 41.727535
+GPU result: 41.727535
+
+
+
+block size:64
+
+Time for the array generation: 574.189392 ms
+
+Info
+______________________________________________________
+Number of elements: 10000000
+Number of threads per block: 64
+Number of blocks will be created: 611
+
+Time
+______________________________________________________
+Time for the CPU function: 193.628036 ms
+Time for Host to Device transfer: 53.308929 ms
+Time for the kernel execution: 16.797089 ms
+Time for the Device to Host transfer: 0.068544 ms
+Total execution time for GPU: 70.174561 ms
+
+Results
+____________________________________________________
+CPU result: 41.727535
+GPU result: 41.727535
+
+
+
+block size:128
+
+Time for the array generation: 574.081360 ms
+
+Info
+______________________________________________________
+Number of elements: 10000000
+Number of threads per block: 128
+Number of blocks will be created: 306
+
+Time
+______________________________________________________
+Time for the CPU function: 191.765503 ms
+Time for Host to Device transfer: 54.645889 ms
+Time for the kernel execution: 21.306816 ms
+Time for the Device to Host transfer: 0.079840 ms
+Total execution time for GPU: 76.032547 ms
+
+Results
+____________________________________________________
+CPU result: 41.727535
+GPU result: 41.727535
+
+
+
+block size:256
+
+Time for the array generation: 652.734375 ms
+
+Info
+______________________________________________________
+Number of elements: 10000000
+Number of threads per block: 256
+Number of blocks will be created: 153
+
+Time
+______________________________________________________
+Time for the CPU function: 195.686844 ms
+Time for Host to Device transfer: 148.052994 ms
+Time for the kernel execution: 68.026306 ms
+Time for the Device to Host transfer: 0.044512 ms
+Total execution time for GPU: 216.123810 ms
+
+Results
+____________________________________________________
+CPU result: 41.727535
+GPU result: 41.727535
+
+
+
+block size:512
+
+Time for the array generation: 587.195496 ms
+
+Info
+______________________________________________________
+Number of elements: 10000000
+Number of threads per block: 512
+Number of blocks will be created: 77
+
+Time
+______________________________________________________
+Time for the CPU function: 193.548416 ms
+Time for Host to Device transfer: 141.504898 ms
+Time for the kernel execution: 68.877731 ms
+Time for the Device to Host transfer: 0.061280 ms
+Total execution time for GPU: 210.443909 ms
+
+Results
+____________________________________________________
+CPU result: 41.727535
+GPU result: 41.727535
+
+
+

@@ -15,7 +15,7 @@ do
   echo -e "Number of Elements:${n_values[$j]}\n" >> gudukbay_gulsum.output
   for (( i=0; i<5; i++ ))
   do
-    echo -e "k=${block_sizes[$i]}\n" >> gudukbay_gulsum.output
+    echo -e "block size:${block_sizes[$i]}\n" >> gudukbay_gulsum.output
     ./angle ${n_values[$j]} ${block_sizes[$i]} >> gudukbay_gulsum.output
     echo -e "\n" >> gudukbay_gulsum.output
   done

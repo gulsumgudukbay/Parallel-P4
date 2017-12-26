@@ -84,7 +84,7 @@ double findAngleCPU(const double *A, const double *B, int numElements)
 
 	mag1 = sqrt(mag1);
 	mag2 = sqrt(mag2);
-	//printf("mag1: %.2f, mag2: %.2f, dot_prod: %.2f\n", (float)mag1, (float)mag2, (float)dot_prod);
+
 	res = acos(dot_prod/(mag1*mag2));
 	return res;
 }

@@ -5,7 +5,7 @@
 #include <math.h>
 #include <cuda.h>
 #include <cuda_runtime_api.h>
-/*int main()
+int main()
 {
 	int device_no;
 
@@ -40,4 +40,4 @@
 		printf("\tClock Rate (KHz): %d\n\n", properties.clockRate);
 	}
 }
-*/
+
