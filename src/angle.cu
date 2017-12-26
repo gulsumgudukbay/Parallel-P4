@@ -15,6 +15,7 @@
 #include <cuda_runtime_api.h>
 
 // double precision atomic add function
+// taken from https://devtalk.nvidia.com/default/topic/763119/atomic-add-operation/
 __device__ double atomicAdd2(double* address, double val)
 {
     unsigned long long int* address_as_ull = (unsigned long long int*)address;
@@ -40,7 +41,6 @@ __device__ void dot_product(const double *A, const double *B, int numElements, i
 	}
 	atomicAdd2(&result[blockIdx.x], sum);
 
-
 }
 
 __device__ void mag_squared(const double *A, int numElements, int blockSize, int width_thread, double *result)
@@ -55,7 +55,6 @@ __device__ void mag_squared(const double *A, int numElements, int blockSize, int
 			sum+= pow(A[i],2);
 	}
 	atomicAdd2(&result[blockIdx.x], sum);
-
 }
 
 __global__ void find_angle(const double *A, const double *B, int numElements, int blockSize, int width_thread, double *mag1, double *mag2, double *dot_prod)
